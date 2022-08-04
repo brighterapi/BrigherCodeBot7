@@ -11,11 +11,14 @@ I'm a Java-Spring boot Microservice developer. who works with banking applicatio
 
 ## Features
 
+
+## Features
+
 - Twitter Retweet Ready-made Bot
 
 BrigherCodeBot7 is a Twitter retweet bot currently powering my accounts @brighterapi
-It retweets everything the search finds. It is intended to be used with searches like #365dayaofcode so that everyone can at-mention the account @CodingBot7 and will get a retweet, thus reach every follower of @milindmehtamca.
-The bot's own Twitter account can be found at @CodingBot7.
+It retweets everything the search finds. It is intended to be used with searches like #365dayaofcode so that everyone can at-mention the account [@CodingBot7](https://twitter.com/CodingBot7) and will get a retweet, thus reach every follower of [milindmehtamca](https://twitter.com/milindmehtamca).
+The bot's own Twitter account can be found at [@CodingBot7](https://twitter.com/CodingBot7).
 
 
 ## Tech Stack
