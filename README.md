@@ -8,10 +8,6 @@ BrigherCodeBot7 - Twitter Bot which Retweet #365DaysOfCode
 I'm a Java-Spring boot Microservice developer. who works with banking applications.
 
 
-
-## Features
-
-
 ## Features
 
 - Twitter Retweet Ready-made Bot
