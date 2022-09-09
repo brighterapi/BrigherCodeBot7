@@ -22,7 +22,7 @@ spring:
     banner-mode: off
 
 search: "365DaysOfCode"
-bearerToken: AAAAAAAAAAAAAAAAAAAAAN5keQEAAAAASPtbLI5Wxerefb7hYlCrS7qSLJk%3DxZW1103iI7ffGfVbOyif49yUksb0pi4WpxpPFuXVSU04XSAqGl
+bearerToken: ${BEARERTOKEN}
   
 oauth:
   consumerKey: ${CONSUMERKEY}
