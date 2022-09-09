@@ -22,4 +22,4 @@ spring:
     banner-mode: off
 
 search: "365DaysOfCode"
-bearerToken: "<Change it>"
+bearerToken: ${BEARERTOKEN}
