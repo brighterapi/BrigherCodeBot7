@@ -22,4 +22,11 @@ spring:
     banner-mode: off
 
 search: "365DaysOfCode"
-bearerToken: ${BEARERTOKEN}
+bearerToken: AAAAAAAAAAAAAAAAAAAAAN5keQEAAAAASPtbLI5Wxerefb7hYlCrS7qSLJk%3DxZW1103iI7ffGfVbOyif49yUksb0pi4WpxpPFuXVSU04XSAqGl
+  
+oauth:
+  consumerKey: ${CONSUMERKEY}
+  consumerSecret: ${CONSUMERSECRET}
+  accessToken: ${ACCESSTOKEN}
+  accessTokenSecret: ${ACCESSTOKENSECRET}
+  grantType: client_credentials
