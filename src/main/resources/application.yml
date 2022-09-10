@@ -1,6 +1,8 @@
 ### Ports
 server:
   port: 7634
+  error:
+    include-stacktrace: never
 
 management:
   endpoints:
