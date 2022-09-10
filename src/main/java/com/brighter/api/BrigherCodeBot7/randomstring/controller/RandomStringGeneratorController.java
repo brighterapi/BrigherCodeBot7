@@ -20,7 +20,7 @@ public class RandomStringGeneratorController {
     private RandomStringGeneratorService randomStringGeneratorService;
 
     @GetMapping(value = "/v1/randomGenerator", produces = APPLICATION_JSON_VALUE, consumes = APPLICATION_JSON_VALUE)
-    public ResponseEntity<GeneratorDto> generator(@RequestHeader Map<String, String> headers, @RequestParam String type, @RequestParam(defaultValue = "3") int minlength, @RequestParam(defaultValue = "15") int maxlength) {
+    public ResponseEntity<GeneratorDto> generator(@RequestHeader Map<String, String> headers, @RequestParam(defaultValue = "alphanumeric") String type, @RequestParam(defaultValue = "3") int minlength, @RequestParam(defaultValue = "15") int maxlength) {
         return randomStringGeneratorService.generate(headers, type, minlength, maxlength);
     }
 }
